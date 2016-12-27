@@ -22,8 +22,8 @@ setup(
     ],
     install_requires=[
         'djangorestframework>=3.0.1',
-        'django-oauth-toolkit>=0.9.0',
-        'python-social-auth>=0.2.2'
+        'social-auth-app-django>=0.0.1',
+        'social-auth-core>=0.0.1'
     ],
     include_package_data=True,
     zip_safe=False,
