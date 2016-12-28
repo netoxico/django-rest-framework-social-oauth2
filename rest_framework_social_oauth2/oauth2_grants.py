@@ -11,7 +11,7 @@ from oauthlib.oauth2.rfc6749.grant_types.refresh_token import RefreshTokenGrant
 
 from social_django.views import NAMESPACE
 from social_django.utils import load_backend, load_strategy
-from social.exceptions import MissingBackend, SocialAuthBaseException
+from social_core.exceptions import MissingBackend, SocialAuthBaseException
 import requests
 
 
