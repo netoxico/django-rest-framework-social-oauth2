@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from social.backends.oauth import BaseOAuth2
+from social_core.backends.oauth import BaseOAuth2
 from django.core.urlresolvers import reverse
 from .settings import PROPRIETARY_BACKEND_NAME
 
